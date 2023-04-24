@@ -7,7 +7,7 @@ import Regulation from './Regulation';
 import Premises from './Premises';
 import Idea from './Idea';
 import Proposal from './Proposal';
-import PaginationProyect from '../pagination/PaginationProyect 4';
+import PaginationProyect from '../pagination/PaginationProyect';
 import "../../styles/proyect.css";
 
 
