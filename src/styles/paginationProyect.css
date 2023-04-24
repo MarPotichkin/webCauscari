@@ -1,0 +1,71 @@
+.contentPaginationProyect {
+  width: 60px;
+  position: relative;
+  top: 55vh;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.paginationProyect {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  width: 60px;
+  gap: 4px;
+  z-index: 10;
+}
+
+.lineFlowerProyect  {
+  height: 215px;
+  width: 2px;
+  background: var(--black);
+  position: absolute;
+  z-index: 9;
+  top: 15px;
+}
+
+.leafPaginationProyect{
+  width: 11px;
+  height: 7px;
+  border-radius: 8.5px 0px;
+  background: var(--black);
+  position: absolute;
+  z-index: 9;
+  left: 35px;
+  top: 218px;
+}
+
+.paginationProyect a {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationProyect svg {
+  width: auto;
+} 
+
+.paginationProyect a span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.paginationProyect a:hover svg {
+  transition: opacity 0.7s;
+  opacity: 0;
+}
+
+.paginationProyect a:hover span {
+  transition: opacity 0.7s;
+  opacity: 1;
+}

@@ -1,0 +1,34 @@
+.nav-menu {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0 6% 0 5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav-menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end;
+  gap: 28px;
+}
+
+.nav-menu li {
+  list-style-type: none;
+  width: auto;
+}
+
+.nav-menu a {
+  text-decoration: none;
+}
+
+.nav-menu a .p-navbar {
+  font-size: var(--body-16);
+}
