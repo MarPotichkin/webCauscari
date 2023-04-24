@@ -1,0 +1,37 @@
+[
+    {
+        "name" : "Diseño paisajístico",
+        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
+        "img": "proposalBase.jpg",
+        "eje": "Paisaje"
+    },
+    {
+        "name" : "Equipamiento cultural",
+        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
+        "img": "proposalCultura.jpg",
+        "eje": "Cultura"
+    },
+    {
+        "name" : "Equipamiento deportivo",
+        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
+        "img": "proposalDeporte.jpg",
+        "eje": "Deporte"
+    },
+    {
+        "name" : "Equipamiento recreativo",
+        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
+        "img": "proposalRecreativo.jpg",
+        "eje": "Recreación"
+    },
+    {
+        "name" : "Actividades sociales",
+        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
+        "img": "proposalBase.jpg",
+        "eje": "Social"
+    }
+]
