@@ -91,7 +91,7 @@ const Analysis = () => {
   //altura edificatoria
   // const [isOnHeight, setIsOnHeight] = useState(false);
   // const toggleSwitchHeight = () => {
-  //   setIsOnHeight(!isOnHeight); 
+  //   setIsOnHeight(!isOnHeight);
   //   setIsOnLocation(false);
   //   setIsOnDimension(false);
   //   setIsOnElevation(false);
@@ -103,7 +103,7 @@ const Analysis = () => {
     isOnLocation === false &&
     !isOnDimension &&
     !isOnElevation &&
-    !isOnEnvironment 
+    !isOnEnvironment
     // && !isOnFull &&
     // !isOnHeight
   ) {
@@ -191,7 +191,8 @@ const Analysis = () => {
           <img
             src={norte}
             style={{ height: "10%", width: "auto" }}
-            className="norteAnalysis" alt="Norte"
+            className="norteAnalysis"
+            alt="Norte"
           ></img>
           {isOnLocation && (
             <img
@@ -318,6 +319,32 @@ const Analysis = () => {
         {/* {isOnDimension && <div>{analysisData[activeButton].dimensiones}</div>} */}
         {/* {isOnElevation && <div>{analysisData[activeButton].niveles}</div>} */}
         {/* {isOnEnvironment && <div>{analysisData[activeButton].entorno}</div>} */}
+        {isOnElevation && (
+          <div className="picturesElevation">
+            <div className="contenedorPicturesEnvironment" ref={slideshow}>
+              {analysisData[activeButton].cortes.map((corte, index) => (
+                <div className="imagenReferenciada" key={index}>
+                  <img
+                    src={require(`../../assets/pictures/${analysisData[activeButton].cortes[index]}`)}
+                    className="picture"
+                    alt="fotos"
+                  ></img>
+                  <p style={{marginTop:"5px"}}>
+                    {analysisData[activeButton].cortesNombre[index]}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <div className="controlsAnalysis">
+              <button onClick={positionLeft} className="buttonAnalysisChevron">
+                <LeftChevron style={{ height: "30px", width: "auto" }} />
+              </button>
+              <button onClick={positionRight} className="buttonAnalysisChevron">
+                <RightChevron style={{ height: "30px", width: "auto" }} />
+              </button>
+            </div>
+          </div>
+        )}
         {isOnEnvironment && (
           <div className="picturesEnvironment">
             <div className="contenedorPicturesEnvironment" ref={slideshow}>
@@ -332,9 +359,8 @@ const Analysis = () => {
                   ></img>
                   <p className="picturesDescription">
                     {analysisData[activeButton].descripcion[index]}
-                  </p> 
-                 
-                  </div>
+                  </p>
+                </div>
               ))}
             </div>
             <div className="controlsAnalysis">
@@ -370,7 +396,11 @@ const Analysis = () => {
             {activeButton === 0 ? (
               <img src={sec1} className={stateButtonSec1} alt="Seccion 1"></img>
             ) : (
-              <img src={sec1d} className="buttonAnalysis" alt="Seccion 1d"></img>
+              <img
+                src={sec1d}
+                className="buttonAnalysis"
+                alt="Seccion 1d"
+              ></img>
             )}
           </button>
           <button
@@ -380,7 +410,11 @@ const Analysis = () => {
             {activeButton === 1 ? (
               <img src={sec2} className={stateButtonSec2} alt="Seccion 2"></img>
             ) : (
-              <img src={sec2d} className="buttonAnalysis" alt="Seccion 2d"></img>
+              <img
+                src={sec2d}
+                className="buttonAnalysis"
+                alt="Seccion 2d"
+              ></img>
             )}
           </button>
           <button
@@ -390,7 +424,11 @@ const Analysis = () => {
             {activeButton === 2 ? (
               <img src={sec3} className={stateButtonSec3} alt="Seccion 3"></img>
             ) : (
-              <img src={sec3d} className="buttonAnalysis" alt="Seccion 3d"></img>
+              <img
+                src={sec3d}
+                className="buttonAnalysis"
+                alt="Seccion 3d"
+              ></img>
             )}
           </button>
           <button
