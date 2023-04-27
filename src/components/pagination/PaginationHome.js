@@ -100,7 +100,7 @@ const PaginationHome = ({ sectionsHome, activeSection, handleCLick }) => {
         <div className="lineFlower l1"></div>
         <div className="lineFlower l2"></div>
         <div className="lineFlower l3"></div>
-        <div className="lineFlower l4"></div> 
+        {/* <div className="lineFlower l4"></div>  */}
         <div className="leafPagination"></div>
       </div>
   );

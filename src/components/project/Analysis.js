@@ -316,7 +316,7 @@ const Analysis = () => {
         {/* {isOnLocation && <div>{analysisData[activeButton].ubicacion}</div>} */}
         {/* {isOnLocation && <img src={require(`../../assets/mapsAnalysis/${analysisData[activeButton].ubicacion}`)} alt="ubicacion 1"></img>} */}
         {/* {isOnDimension && <div>{analysisData[activeButton].dimensiones}</div>} */}
-        {isOnElevation && <div>{analysisData[activeButton].niveles}</div>}
+        {/* {isOnElevation && <div>{analysisData[activeButton].niveles}</div>} */}
         {/* {isOnEnvironment && <div>{analysisData[activeButton].entorno}</div>} */}
         {isOnEnvironment && (
           <div className="picturesEnvironment">

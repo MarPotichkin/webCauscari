@@ -27,22 +27,19 @@ const Premises = () => {
         <div className="prem">
           <p className="numberPremise">1</p>
           <p className="textPremise">
-            Morbi convallis convallis diam sit amet lacinia. Aliquam in
-            elementum tellus.
+            Generar un paseo dinámico a través de recursos arquitectónicos y actividades que fomenten el uso y tránsito del lugar.
           </p>
         </div>
         <div className="prem">
           <p className="numberPremise">2</p>
           <p className="textPremise">
-            Morbi convallis convallis diam sit amet lacinia. Aliquam in
-            elementum tellus.
+            Otorgarle el protagonismo al usuario, siendo el Paseo Causcarí escenografía para la vida cotidiana.
           </p>
         </div>
         <div className="prem">
           <p className="numberPremise">3</p>
           <p className="textPremise">
-            Morbi convallis convallis diam sit amet lacinia. Aliquam in
-            elementum tellus.
+            Difuminar los límites duros de las medianeras a través de jardines y uso de la topografía, adaptandosé a la morfología del terreno.
           </p>
         </div>
       </div>

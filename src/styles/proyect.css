@@ -798,8 +798,16 @@ button:nth-child(2){
 .mapRegulation {
   background: papayawhip;
   width: 100%;
-  height: 130px;
+  /* height: 130px; */
+  height: auto;
+  /* object-fit: cover; */
 }
+.mapRegulation img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .tabs {
   /* width: 20px;
@@ -982,7 +990,7 @@ button:nth-child(2){
   align-items: center;
 }
 
-.textPremises h4, .textIdea h4 {
+.textPremises h4, .textIdea h4 ,.textLand h4{
   position: absolute;
   top: 71px;
   left: 65px;
@@ -1079,9 +1087,45 @@ button:nth-child(2){
   left: 65px;
 }
 
-.containerIconsProposal {
+/* .containerIconsProposal {
   grid-area: icons;
   background: lightblue;
+  display: flex;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+  grid-gap: 10px;
+} */
+/* 
+.imgFinalProposal {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+} */
+
+.containerIconsProposal {
+  grid-area: icons;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerIconsProposal > div {
+  width: calc(15% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20%;
+}
+
+.containerIconsProposal > div:last-child {
+  margin-right: 0;
+}
+
+.imgFinalProposal {
+  width: 100%;
+  height: auto;
 }
 
 .selectorProposal {
@@ -1099,9 +1143,23 @@ button:nth-child(2){
 }
 
 .imgProgress {
-  width: 900px;
-  height: 180px;
-  background: yellowgreen;
+ width: 100%;
+  height: auto;
+  position:relative;
+}
+
+.imgProgress img.imgFinalProposal{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.imgProgress img.norte{
+  position: absolute;
+  top:10px;
+  left: 4px;
+  width: 15px;
+  height: auto;
 }
 
 .progressBar {

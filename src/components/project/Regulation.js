@@ -1,5 +1,6 @@
 import Tab from "./Tab";
 import Tab2 from "./Tab2";
+import baseRegulation from "../../assets/baseRegulation.png"
 
 const Regulation = () => {
 
@@ -20,7 +21,9 @@ const Regulation = () => {
             conectividad, funciones de reserva y características naturales.
           </p>
 
-          <div className="mapRegulation"></div>
+          <div className="mapRegulation">
+            <img src={baseRegulation} alt="Codigo de edificación"></img>
+          </div>
         </div>
       </div>
       <div className="tabs">
