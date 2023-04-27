@@ -1,35 +1,20 @@
-import React, { useState } from "react";
+import React from "react";
 import mapamundi from "../../assets/mapamundi.png";
 import argentina from "../../assets/argentina.png";
 import mendoza from "../../assets/mendoza.png";
 import guaymallen from "../../assets/guaymallen.png";
 
-const Where = ({whereView}) => {
-
-  // const viewWhere = "where" === activeSection ? "running" : "paused";
-  // const [animationPlayState, setAnimationPlayState] = useState('running');
-
-  // console.log(viewWhere);
-  // console.log(whereView);
-
-  // const pauseAnimation = () => {
-  //   setAnimationPlayState('paused');
-  // };
-
-  // const resumeAnimation = () => {
-  //   setAnimationPlayState('running');
-  // };
-
+const Where = ({whereView}) => { 
 
   return (
     <div className="whereResponse">
       <div className="contentSection">
         <p className={`p1 ${whereView ? "show" : "hide"}`}>Argentina</p>
-        <img className={`mapamundi ${whereView ? "show" : "hide"}`} src={mapamundi}></img>
+        <img className={`mapamundi ${whereView ? "show" : "hide"}`} src={mapamundi} alt="Mapamundi"></img>
         <div className={`circlePosition1 ${whereView ? "show" : "hide"}`}></div>
 
         <p className={`p2 ${whereView ? "show" : "hide"}`}>Mendoza</p>
-        <img className={`argentina ${whereView ? "show" : "hide"}`} src={argentina}></img>
+        <img className={`argentina ${whereView ? "show" : "hide"}`} src={argentina} alt="Argentina"></img>
         <div className={`circlePosition2 ${whereView ? "show" : "hide"}`}></div>
 
         <svg viewBox="0 0 500 500" className={`line1 ${whereView ? "show" : "hide"}`}>
@@ -44,7 +29,7 @@ const Where = ({whereView}) => {
         </svg>
 
         <p className={`p3 ${whereView ? "show" : "hide"}`}>Guaymallén</p>
-        <img className={`mendoza ${whereView ? "show" : "hide"}`} src={mendoza}></img>
+        <img className={`mendoza ${whereView ? "show" : "hide"}`} src={mendoza} alt="Mendoza"></img>
         <div className={`circlePosition3 ${whereView ? "show" : "hide"}`}></div>
 
         <svg viewBox="0 0 500 500" className={`line2 ${whereView ? "show" : "hide"}`}>
@@ -58,7 +43,7 @@ const Where = ({whereView}) => {
         </svg>
 
         <p className={`p4 ${whereView ? "show" : "hide"}`}>Vías ferrocarril Belgrano</p>
-        <img className={`guaymallen ${whereView ? "show" : "hide"}`} src={guaymallen}></img>
+        <img className={`guaymallen ${whereView ? "show" : "hide"}`} src={guaymallen} alt="Guaymallén"></img>
         <div className={`circlePosition4 ${whereView ? "show" : "hide"}`}></div>
 
         <svg viewBox="0 0 500 500" className={`line3 ${whereView ? "show" : "hide"}`}>

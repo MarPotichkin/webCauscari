@@ -45,15 +45,19 @@ img {
 }
 
 /* SECCIÓN WHAT IS */
+.rectangleWhatIs{
+  height: 90%;
+  width: 90%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
 .rectangleYellow{
   height: 450px;
   width: 550px;
   background: var(--primary_600);
   position: absolute;
-  /* top: 0px; */
-  left: 130px;
-  /* translate: 25% 0; */
-  /* margin-left: 10%; */
+  left: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,14 +70,18 @@ img {
   width: 600px;
   background: var(--white);
   position: absolute;
-  /* top: 0px; */
-  right: 130px;
-  /* translate: -20% 0; */
+  left: 570px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
+.rectangleWhite img{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
 
 /* SECCION WHERE */
 
@@ -327,62 +335,25 @@ img {
   height: 100vh;
 }
 
-/* .webSectionWhy{
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
+/* .recY{
   height: 100vh;
-  overflow-y: scroll;
-  grid-area: infoWhy;
-  grid-column-start: 2;
-  display: flex;
-  flex-direction: column;
-
-  overscroll-behavior: 'contain';
-}
-
-.webSectionWhy section{
-  height: 100vh;
-} */
-
-
-.recY{
-  /* scroll-behavior: smooth;
-  scroll-snap-type: x mandatory; */
-  height: 100vh;
-  /* overflow-x: scroll; */
   grid-area: boxYellow;
   grid-column-start: 1;
   display: flex;
   flex-direction: row;
   background: var(--primary_600);
-}
-/* .recY{
-  background: var(--primary_600);
-  display: flex;
-  grid-area: boxYellow;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  height: 100vh;
-  position: fixed;
-} */
-/* .rec2{
-  background: var(--primary_600);
-  grid-area: "infoWhy";
-  height: 100%;
-  overflow-y: scroll;
-} */
-
-/* .webSection section{
-  height: 100%;
 } */
 
 .recInfoBase{
   height: 100vh;
   grid-area: boxYellow;
-  /* grid-column-start: 1; */
-  /* display: flex; */
-  /* flex-direction: row; */
   background: var(--primary_600);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  padding: 15%;
 }
 
 .reasonsWhy{
@@ -391,7 +362,6 @@ img {
   height: 100vh;
   background: plum;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   position: relative;
 }
@@ -399,7 +369,6 @@ img {
 .contenedorReasonsWhy{
   display: flex;
   flex-wrap: nowrap;
-  /* translate: 0 30%; */
 }
 
 .reason{
@@ -407,8 +376,6 @@ img {
   height: 50vh;
   overflow: hidden;
   transition: .3s ease all;
-  /* max-height: 60%; */
-  /* position: relative; */
 }
 
 .controls{
@@ -438,6 +405,6 @@ button:nth-child(2){
   right: 0px;
 }
 
-button:hover{
+/* button:hover{
   background: blue;
-}
+} */

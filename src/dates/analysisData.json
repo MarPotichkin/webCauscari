@@ -1,0 +1,86 @@
+[
+    { 
+        "sec1": "Contenido del JSON 0",
+        "ubicacion": "ubicacion1c.png",
+        "dimensiones": "dimensiones1b.png",
+        "niveles": "niveles1.png",
+        "entorno": "entorno1.png",
+        "llenos": "llenos1",
+        "altura": "altura1",
+        "superficie": ["318601,63m"],
+        "fotos": ["foto01-1.jpeg", "foto01-2.jpeg", "foto01-3.JPG", "foto01-4.JPG", "foto01-5.jpeg", "foto01-6.JPG", "foto01-7.JPG"],
+        "descripcion" : ["Muros de cierre" , "Muros de cierre" , "Depósito Ledesma", "Vinculación con Le Parc", "Altura de las vías a nivel de techos", "Diferencia de nivel: vías - calle", "Puente ferroviario sobre calle Colón"]
+    },
+    { 
+        "sec2": "Contenido del JSON 1",
+        "ubicacion": "ubicacion2.png",
+        "dimensiones": "dimensiones2.png",
+        "niveles": "niveles2.png",
+        "entorno": "entorno2.png",
+        "llenos": "llenos2",
+        "altura": "altura2",
+        "superficie": ["12488,64m"],
+        "fotos": ["foto02-1.JPG", "foto02-2.jpeg", "foto02-3.JPG", "foto02-4.jpeg", "foto02-5.JPG"],
+        "descripcion" : ["Barrera visual" ,"Terrenos desmoronados", "Puente ferroviario sobre calle Sarmiento", "Puente ferroviario sobre calle Sarmiento", "Diferencia de nivel: vías - calle"]
+    },
+    { 
+        "sec3": "Contenido del JSON 3",
+        "ubicacion": "ubicacion3.png",
+        "dimensiones": "dimensiones3.png",
+        "niveles": "niveles3.png",
+        "entorno": "entorno3.png",
+        "llenos": "llenos3",
+        "altura": "altura3",        
+        "superficie": ["19975,91m", "5305,05m", "4251,87m"],
+        "fotos": ["foto03-1.JPG", "foto03-2.JPG", "foto03-3.JPG", "foto03-4.JPG", "foto03-5.JPG", "foto03-6.JPG", "foto03-7.JPG"],
+        "descripcion" : ["Mercado Cooperativo y barrera visual" ,"Altura de viviendas y vías", "Barrera visual", "Espacios residuales", "Barrera visual", "Altura de las vías a nivel de techos", "Medianeras"]
+    },
+    { 
+        "sec4": "Contenido del JSON 4",
+        "ubicacion": "ubicacion4.png",
+        "dimensiones": "dimensiones4.png",
+        "niveles": "niveles4.png",
+        "entorno": "entorno4.png",
+        "llenos": "llenos4",
+        "altura": "altura4",
+        "superficie": ["4961,38m", "3097,92"],
+        "fotos": ["foto04-1.JPG", "foto04-2.jpeg", "foto04-3.JPG"],
+        "descripcion" : ["Arcos de futbol" ,"Asientos sin reparo y en mal estado", "Paseo Belgrano"]
+    },
+    { 
+        "sec5": "Contenido del JSON 5",
+        "ubicacion": "ubicacion5.png",
+        "dimensioness": "dimensiones5.png",
+        "niveles": "niveles5.png",
+        "entorno": "entorno5.png",
+        "llenos": "llenos5",
+        "altura": "altura5",
+        "superficie": ["1267,42m", "15781,45"],
+        "fotos": ["foto05-1.JPG", "foto05-2.JPG", "foto05-3.jpeg", "foto05-4.jpeg", "foto05-5.JPG"],
+        "descripcion" : ["Espacios entre medianeras" ,"Espacios entre medianeras", "Espacios entre medianeras", "Espacios entre medianeras", "Espacios entre medianeras"]
+    },
+    { 
+        "sec6": "Contenido del JSON 6",
+        "ubicacion": "ubicacion6.png",
+        "dimensiones": "dimensiones6.png",
+        "niveles": "niveles6.png",
+        "entorno": "entorno6.png",
+        "llenos": "llenos6",
+        "altura": "altura6",
+        "superficie": ["21297,92m", "20681,26"],
+        "fotos": ["foto06-1.JPG", "foto06-3.JPG", "foto06-2.JPG", "foto06-4.JPG", "foto06-5.JPG"],
+        "descripcion" : ["Espacios entre medianeras", "Espacios entre medianeras", "Espacio residual - union de ramales", "Espacio residual - union de ramales", "Espacios residuales"]
+    },
+    { 
+        "sec7": "Contenido del JSON 7",
+        "ubicacion": "ubicacion7.png",
+        "dimensiones": "dimensiones7.png",
+        "niveles": "niveles7.png",
+        "entorno": "entorno7.png",
+        "llenos": "llenos7",
+        "altura": "altura7",
+        "superficie": ["37674,54m", "42575,49m"],
+        "fotos": ["foto07-1.JPG", "foto07-2.JPG", "foto07-3.JPG", "foto07-4.JPG", "foto07-5.JPG", "foto07-6.jpeg"],
+        "descripcion" : ["Espacios residuales apropiados" ,"Espacios residuales", "Altura de las vías a nivel de techos", "Altura de las vías a nivel de techos", "Barrera visual", "Puente ferroviario cruce Ramal SM"]
+    }
+]

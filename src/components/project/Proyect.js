@@ -7,7 +7,7 @@ import Regulation from './Regulation';
 import Premises from './Premises';
 import Idea from './Idea';
 import Proposal from './Proposal';
-import PaginationProyect from '../pagination/PaginationProyect 4';
+import PaginationProyect from '../pagination/PaginationProyect';
 import "../../styles/proyect.css";
 
 
@@ -73,56 +73,56 @@ const Proyect = ({sectionsProyect, activeSectionProyect, setActiveSectionProyect
             id={sectionsProyect[0]}
             ref={sectionRefs[sectionsProyect[0]]}
           >
-            <Location id="location" />
+            <Location id="Guaymallén" />
           </section>
           <section
             className={`character-block ${activeView[1]}`}
             id={sectionsProyect[1]}
             ref={sectionRefs[sectionsProyect[1]]}
           >
-            <Indicators id="indicators" />
+            <Indicators id="Indicadores" />
           </section>
           <section
             className={`character-block ${activeView}`}
             id={sectionsProyect[2]}
             ref={sectionRefs[sectionsProyect[2]]}
           >
-            <Land id="land" />
+            <Land id="Terreno" />
           </section>
           <section
             className={`character-block ${activeView}`}
             id={sectionsProyect[3]}
             ref={sectionRefs[sectionsProyect[3]]}
           >
-            <Analysis id="analysis" />
+            <Analysis id="Análisis" />
           </section>
           <section
             className={`character-block ${activeView}`}
             id={sectionsProyect[4]}
             ref={sectionRefs[sectionsProyect[4]]}
           >
-            <Regulation id="regulation" />
+            <Regulation id="Código" />
           </section>
           <section
             className={`character-block ${activeView}`}
             id={sectionsProyect[5]}
             ref={sectionRefs[sectionsProyect[5]]}
           >
-            <Premises id="premises" />
+            <Premises id="Premisas" />
           </section>
           <section
             className={`character-block ${activeView}`}
             id={sectionsProyect[6]}
             ref={sectionRefs[sectionsProyect[6]]}
           >
-            <Idea id="idea" />
+            <Idea id="Idea" />
           </section>
           <section
             className={`character-block ${activeView}`}
             id={sectionsProyect[7]}
             ref={sectionRefs[sectionsProyect[7]]}
           >
-            <Proposal id="proposal" />
+            <Proposal id="Propuesta" />
             </section>
         </div>
       </div>
