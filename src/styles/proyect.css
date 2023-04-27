@@ -735,16 +735,6 @@ overflow: x;
   top: 50%;
   background-color: rgba(255, 255, 255, 0.3);
 }
-.picturesElevation{
-  height: auto;
-    width: 80%;
-    overflow: hidden;
-    /* background: plum; */
-    display: flex;
-    align-items: center;
-    position: relative;
-    object-fit: cover;
-}
 /* .picturesEnvironment .picturesDescription .picturesDescriptionText{
   font-size: 10px;
   color: var(--white); 
@@ -776,8 +766,6 @@ button:nth-child(1){
 button:nth-child(2){
   right: 0px;
 }
-
-
 
 /* SECCIÓN REGULATION */
 .containerRegulation {
