@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "../../styles/pagination.css";
-import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const PaginationHome = ({ sectionsHome, activeSection, handleCLick }) => {
   function renderItems() {
@@ -8,8 +8,12 @@ const PaginationHome = ({ sectionsHome, activeSection, handleCLick }) => {
       const activeView = section === activeSection;
 
       return (
-        <a key={section} id={section} onClick={() => handleCLick(section)}>
-          <span>{section}</span>
+        <Link key={section} id={section} onClick={() => handleCLick(section)}>
+          {activeSection === "Causcari" 
+          ? <span style={{fontFamily: "Montserrat", fontSize: "9px", fontWeight: "bold"}}> {section}</span>
+          : <span style={{fontFamily: "Montserrat", fontSize: "9px", fontWeight: "bold"}}>{section}</span>
+          }
+          
           <svg
             x="0px"
             y="0px"
@@ -85,7 +89,7 @@ const PaginationHome = ({ sectionsHome, activeSection, handleCLick }) => {
               </g>
             </switch>
           </svg>
-        </a>
+        </Link>
       );
     });
   }
@@ -93,7 +97,10 @@ const PaginationHome = ({ sectionsHome, activeSection, handleCLick }) => {
   return (
       <div className="contentPagination">
         <div className="pagination"> {renderItems()}</div>
-        <div className="lineFlower"></div>
+        <div className="lineFlower l1"></div>
+        <div className="lineFlower l2"></div>
+        <div className="lineFlower l3"></div>
+        <div className="lineFlower l4"></div> 
         <div className="leafPagination"></div>
       </div>
   );

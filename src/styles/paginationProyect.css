@@ -18,12 +18,37 @@
 }
 
 .lineFlowerProyect  {
-  height: 215px;
+  height: 14px;
   width: 2px;
   background: var(--black);
   position: absolute;
   z-index: 9;
-  top: 15px;
+  
+}
+
+.lineFlowerProyect.l1{
+  top: 17px;
+}
+.lineFlowerProyect.l2{
+  top: 47px;
+}
+.lineFlowerProyect.l3{
+  top: 74px;
+}
+.lineFlowerProyect.l4{
+  top: 104px;
+}
+.lineFlowerProyect.l5{
+  top: 130px;
+}
+.lineFlowerProyect.l6{
+  top: 158px;
+}
+.lineFlowerProyect.l7{
+  top: 186px;
+}
+.lineFlowerProyect.l8{
+  top: 216px;
 }
 
 .leafPaginationProyect{

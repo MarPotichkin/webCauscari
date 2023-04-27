@@ -15,15 +15,28 @@
   width: 60px;
   gap: 4px;
   z-index: 10;
-}
+} 
 
 .lineFlower {
-  height: 130px;
+  height: 14px;
   width: 2px;
   background: var(--black);
   position: absolute;
   z-index: 9;
-  top: 15px;
+  
+}
+
+.lineFlower.l1{
+  top: 17px;
+}
+.lineFlower.l2{
+  top: 47px;
+}
+.lineFlower.l3{
+  top: 74px;
+}
+.lineFlower.l4{
+  top: 104px;
 }
 
 .leafPagination{
@@ -34,8 +47,19 @@
   position: absolute;
   z-index: 9;
   left: 35px;
-  top: 135px;
+  top: 110px;
 }
+
+/* .leafPagination{
+  width: 11px;
+  height: 7px;
+  border-radius: 8.5px 0px;
+  background: var(--black);
+  position: absolute;
+  z-index: 9;
+  left: 35px;
+  top: 135px;
+} */
 
 .pagination a {
   position: relative;
@@ -68,4 +92,9 @@
 .pagination a:hover span {
   transition: opacity 0.7s;
   opacity: 1;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
 }

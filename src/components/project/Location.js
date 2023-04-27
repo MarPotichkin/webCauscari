@@ -1,22 +1,29 @@
 import React, { useState } from "react";
+import baseGuaymallen from "../../assets/baseGuaymallen.png";
+import distritos from "../../assets/GuaymallenDistritos.png";
+import population from "../../assets/densidadPobl.png";
+import zoning from "../../assets/zonificacion.png";
+import norte from "../../assets/NorteVertical.png";
 
 const Location = () => {
-  const [isOnGuaymallen, setIsOnGuaymallen] = useState(false);
+  const [isOnDistritos, setIsOnDistritos] = useState(false);
 
-  const toggleSwitchGuaymallen = () => {
-    setIsOnGuaymallen(!isOnGuaymallen);
+  const toggleSwitchDistritos = () => {
+    setIsOnDistritos(!isOnDistritos);
   };
 
   const [isOnPopulation, setIsOnPopulation] = useState(false);
 
   const toggleSwitchPopulation = () => {
     setIsOnPopulation(!isOnPopulation);
+    setIsOnZoning(false);
   };
 
   const [isOnZoning, setIsOnZoning] = useState(false);
 
   const toggleSwitchZoning = () => {
     setIsOnZoning(!isOnZoning);
+    setIsOnPopulation(false);
   };
 
   return (
@@ -26,17 +33,17 @@ const Location = () => {
           <p className="numberSection">01</p>
           <h4>Análisis de la ubicación</h4>
           <p className="descriptionLocation">
-            {" "}
-            Korem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
-            turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
-            nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum
-            tellus elit sed risus. Maecenas eget condimentum velit, sit amet
-            feugiat lectus. Class aptent taciti sociosqu ad litora torquent per
-            conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus
-            enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex.
-            Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum
-            lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in
-            elementum tellus.
+            Como se ha podido observar previamente, el departamento de
+            Guaymallén se posiciona como el de mayor densidad poblacional en la
+            provincia de Mendoza. Con base en esta premisa, se ha llevado a cabo
+            un análisis exhaustivo de las zonas donde se concentra la población,
+            el cual ha permitido determinar que dichas áreas se encuentran
+            distribuidas a lo largo de dos ejes lineales principales. Uno de
+            estos ejes se extiende a lo largo del Acceso Este, mientras que el
+            otro se ubica en las zonas contiguas a las vías del ramal A-10.
+            Estas zonas de alta densidad poblacional se caracterizan por su
+            dinamismo y actividad constante, lo que las convierte en puntos
+            estratégicos para el desarrollo económico y social del departamento.
           </p>
           <div className="containerSwitch">
             <label className="switch" style={{ cursor: "default" }}>
@@ -48,11 +55,16 @@ const Location = () => {
               />
               <span className="slider" style={{ cursor: "default" }}></span>
             </label>
-            {/* <label className="switch">
-              <input type="checkbox" checked={isOnGuaymallen} onChange={toggleSwitchGuaymallen} />
-              <span className="slider"></span>
-            </label> */}
             <p>Guaymallén</p>
+            <label className="switch">
+              <input
+                type="checkbox"
+                checked={isOnDistritos}
+                onChange={toggleSwitchDistritos}
+              />
+              <span className="slider"></span>
+            </label>
+            <p>Distritos</p>
             <label className="switch">
               <input
                 type="checkbox"
@@ -75,18 +87,42 @@ const Location = () => {
         </div>
       </div>
       <div className="mapsLocation">
-        {/* {isOnGuaymallen && (
-        <img src="https://example.com/myimage.jpg" alt="My Image" />
-      )}
-       {isOnPopulation && (
-        <img src="https://example.com/myimage.jpg" alt="My Image" />
-      )}
-       {isOnZoning && (
-        <img src="https://example.com/myimage.jpg" alt="My Image" />
-      )} */}
+        <div className="positionImg01">
+          <img
+            src={baseGuaymallen}
+            alt="Plano Base"
+            style={{ height: "auto", width: "100%" }}
+            className="baseImg"
+          ></img>
+          <img src={norte} alt="Norte" className="norteVertical"></img>
+          {isOnDistritos && (
+            <img
+              src={distritos}
+              alt="Distritos"
+              style={{ height: "auto", width: "100%" }}
+              className="distImg"
+            />
+          )}
+          {isOnPopulation && (
+            <img
+              src={population}
+              alt="Población"
+              style={{ height: "auto", width: "100%" }}
+              className="populationImg"
+            />
+          )}
+          {isOnZoning && (
+            <img
+              src={zoning}
+              alt="Zonificación"
+              style={{ height: "auto", width: "100%" }}
+              className="zoningImg"
+            />
+          )}
+        </div>
         <div className="containerReferences">
           <div className="referencesPopulation">
-            <p>Densidad poblacional (hab/km2)</p>
+            <p>Densidad poblacional (hab/km<sup>2</sup>)</p>
             <div className="structureReference">
               <div className="recReference ref1"></div>
               <p>0,01 - 1</p>
@@ -123,6 +159,15 @@ const Location = () => {
                 <p>Área Urbana</p>
                 <p>Población: 8,4%</p>
                 <p>Superficie: 46%</p>
+              </div>
+            </div>
+          </div>
+          <div className="referencesRailway">
+            <p>Vías Ramal A-10</p>
+            <div className="structureRefZoning">
+              <div className="recReference ref19"></div>
+              <div>
+                <p>Ferrocarril Belgrano</p>
               </div>
             </div>
           </div>

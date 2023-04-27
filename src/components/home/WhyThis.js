@@ -57,7 +57,10 @@ const WhyThis = () => {
 
   return (
     <div className="whyThisResponse">
-      <div className="recInfoBase"></div>
+      <div className="recInfoBase">
+        <h4>¿Por qué se propone?</h4>
+        <p> A raíz del crecimiento urbano y la tendencia hacia la metropolización, los sistemas urbanos se expanden rápidamente, generando desequilibrios significativos con respecto a las zonas centrales. Ante estos nuevos escenarios, se requieren herramientas innovadoras para involucrar a las personas como actores clave en las transformaciones socioespaciales que se están produciendo en las áreas urbanas.</p>
+      </div>
       {/* <div className="recY"  ref={recYHeight}></div> */}
       {/* <div className="webSectionWhy"  style={{ overscrollBehavior: 'contain' }}> */}
       <div className="reasonsWhy">
@@ -75,12 +78,6 @@ const WhyThis = () => {
             <RightChevron style={{ height: "30px", width: "auto" }} />
           </button>
         </div>
-        {/* <section style={{background:" var(--black)"}}>
-            adfasdfa
-        </section>
-        <section style={{background:"pink"}}>
-          jpojpo
-        </section> */}
       </div>
     </div>
   );

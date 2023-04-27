@@ -1,37 +1,49 @@
 [
     {
         "name" : "Diseño paisajístico",
-        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "description": "Contribuye a mejorar la calidad ambiental y estética del espacio público, proporcionando un ambiente agradable y funcional para la comunidad.",
+        "description2": "Se propone la reforestación de la zona, inclusión de mobiliario y equipamiento necesario para revitalizar la zona, proporcionándole carácter de parque lineal.",
         "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
-        "img": "proposalBase.jpg",
+        "img": "proposalBase.png",
         "eje": "Paisaje"
     },
     {
         "name" : "Equipamiento cultural",
-        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "description": "Contribuyen a crear una identidad en el espacio público, fomentan la participación ciudadana, generan una sensación de pertenencia y promueven el desarrollo socioeconómico local.",
+        "description2": "Se propone la vinculación con el Centro Cultural Le Parc y la Municipalidad de Guaymallén incluyendo aulas taller para el desarrollo de actividades a lo largo del municipio.",
         "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
-        "img": "proposalCultura.jpg",
+        "img": "proposalCultura.png",
         "eje": "Cultura"
     },
     {
         "name" : "Equipamiento deportivo",
-        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "description": "Promueve la actividad física y el bienestar de la comunidad. La inclusión de equipamiento deportivo fomenta un estilo de vida más activo y saludable, además de ser una herramienta para la cohesión social y la integración de la comunidad.",
+        "description2": "Se proponene en zonas cercanas a canchas realizadas por vecinos y de aulas taller para las actividades que realiza el municipio.",
         "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
-        "img": "proposalDeporte.jpg",
+        "img": "proposalDeporte.png",
         "eje": "Deporte"
     },
     {
         "name" : "Equipamiento recreativo",
-        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "description": "Ayudan a reducir los niveles de estrés y mejorar el bienestar emocional y mental de las personas. Además, fomenta la interacción social y la creación de comunidad en los espacios públicos.",
+        "description2": "Se preven espacios para la recreación pasiva y activa, teniendo en cuenta de colocar estos últimos en zonas de movimiento para fomentar la interacción.",
         "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
-        "img": "proposalRecreativo.jpg",
+        "img": "proposalRecreativo.png",
         "eje": "Recreación"
     },
     {
-        "name" : "Actividades sociales",
-        "description": "adfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfaadfasdfa",
+        "name" : "Economía social y solidaria",
+        "description": "Se busca fomentar la participación activa de la comunidad en la producción y el consumo de bienes y servicios, promoviendo el desarrollo local y la cooperación entre sus miembros.",
+        "description2": "Se propone la incorporación de huertas urbanas y paseos urbanos, siguiendo con la iniciativia del municipio",
         "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
-        "img": "proposalBase.jpg",
-        "eje": "Social"
+        "img": "proposalEconomia.png",
+        "eje": "Economía"
+    },
+    {
+        "name": "Causcarí",
+        "description":"...",
+        "icons": ["adfasdfa", "adfasdfa", "adfasdfa", "adfasdfa"],
+        "img": "proposalTodo.png",
+        "eje": "Causcarí"
     }
 ]

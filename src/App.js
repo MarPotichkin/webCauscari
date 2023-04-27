@@ -1,18 +1,18 @@
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import { Route, Routes } from 'react-router-dom';
-import Investigation from './components/investigation/Investigation';
 import Entrega from './components/project/Proyect';
 import Video from './components/video/Video';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 function App() {
 
-  const sectionsHome = ["presentation", "whatIs","where", "whyThis", "howIs"]
+  const sectionsHome = ["Causcari", "Que es","Donde", "Por que"]
+  // const sectionsHome = ["Causcari", "Que es","Donde", "Por que", "Como"]
   const [activeSection, setActiveSection] = useState();
 
-  const sectionsProyect = ["location", "indicators","land", "analysis", "regulation", "premises", "idea", "proposal"]
+  const sectionsProyect = ["Guaymallén", "Indicadores","Terreno", "Análisis", "Código", "Premisas", "Idea", "Propuesta"]
   const [activeSectionProyect, setActiveSectionProyect] = useState();
   
   // const [pageHeight, setPageHeight] = useState();

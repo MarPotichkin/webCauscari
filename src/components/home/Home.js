@@ -1,12 +1,11 @@
-import React, { createRef, useEffect, useRef, useState } from "react";
-import HowIs from "./HowIs";
+import React, { createRef, useEffect, useState } from "react";
 import Presentation from "./Presentation";
 import WhatIs from "./WhatIs";
 import Where from "./Where";
 import WhyThis from "./WhyThis";
 import PaginationHome from "../pagination/PaginationHome";
 import "../../styles/home.css";
-
+ 
 const Home = ({ sectionsHome, activeSection, setActiveSection }) => {
   const [whereView, setWhereView] = useState(false);
 
@@ -36,7 +35,7 @@ const Home = ({ sectionsHome, activeSection, setActiveSection }) => {
       entries.forEach((entry) => {
         if (entry.target.id !== activeSection && entry.isIntersecting) {
           setActiveSection(entry.target.id);
-          if (entry.target.id === "where") {
+          if (entry.target.id === "Donde") {
             setWhereView(true);
           } else {
             setWhereView(false);
@@ -73,36 +72,36 @@ const Home = ({ sectionsHome, activeSection, setActiveSection }) => {
           id={sectionsHome[0]}
           ref={sectionRefs[sectionsHome[0]]}
         >
-          <Presentation id="presentation" />
+          <Presentation id="Causcari" />
         </section>
         <section
           className={`character-block ${activeView[1]}`}
           id={sectionsHome[1]}
           ref={sectionRefs[sectionsHome[1]]}
         >
-          <WhatIs id="whatIs" />
+          <WhatIs id="Que es" />
         </section>
         <section
           className={`character-block ${activeView}`}
           id={sectionsHome[2]}
           ref={sectionRefs[sectionsHome[2]]}
         >
-          <Where id="where" whereView={whereView} />
+          <Where id="Donde" whereView={whereView} />
         </section>
         <section
           className={`character-block ${activeView}`}
           id={sectionsHome[3]}
           ref={sectionRefs[sectionsHome[3]]}
         >
-          <WhyThis id="whyThis" />
+          <WhyThis id="Por que" />
         </section>
-        <section
+        {/* <section
           className={`character-block ${activeView}`}
           id={sectionsHome[4]}
           ref={sectionRefs[sectionsHome[4]]}
         >
-          <HowIs id="HowIs" />
-        </section>
+          <HowIs id="Como" />
+        </section> */}
       </div>
     </div>
   );
