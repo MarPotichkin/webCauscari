@@ -2,7 +2,7 @@ import React, { createRef, useEffect, useState } from "react";
 import Presentation from "./Presentation";
 import WhatIs from "./WhatIs";
 import Where from "./Where";
-import WhyThis from "./WhyThis";
+// import WhyThis from "./WhyThis";
 import PaginationHome from "../pagination/PaginationHome";
 import "../../styles/home.css";
  
