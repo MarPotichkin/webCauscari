@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const sectionsHome = ["Causcari", "Que es","Donde", "Por que"]
+  const sectionsHome = ["Causcari", "Que es","Donde"]
   // const sectionsHome = ["Causcari", "Que es","Donde", "Por que", "Como"]
   const [activeSection, setActiveSection] = useState();
 

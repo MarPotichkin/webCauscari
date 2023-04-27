@@ -88,13 +88,13 @@ const Home = ({ sectionsHome, activeSection, setActiveSection }) => {
         >
           <Where id="Donde" whereView={whereView} />
         </section>
-        <section
+        {/* <section
           className={`character-block ${activeView}`}
           id={sectionsHome[3]}
           ref={sectionRefs[sectionsHome[3]]}
         >
           <WhyThis id="Por que" />
-        </section>
+        </section> */}
         {/* <section
           className={`character-block ${activeView}`}
           id={sectionsHome[4]}
