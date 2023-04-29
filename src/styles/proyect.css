@@ -1118,7 +1118,7 @@ button:nth-child(2){
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .containerIconsProposal > div {
@@ -1138,6 +1138,12 @@ button:nth-child(2){
 .imgFinalProposal {
   width: 100%;
   height: auto;
+}
+
+.imgProposalCauscari{
+  height: 70%;
+  width: auto;
+  align-self: center;
 }
 
 .selectorProposal {

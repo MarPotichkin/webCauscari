@@ -325,7 +325,7 @@ const Analysis = () => {
               {analysisData[activeButton].cortes.map((corte, index) => (
                 <div className="imagenReferenciada" key={index}>
                   <img
-                    src={require(`../../assets/pictures/${analysisData[activeButton].cortes[index]}`)}
+                    src={require(`../../assets/cortesAnalysis/${analysisData[activeButton].cortes[index]}`)}
                     className="picture"
                     alt="fotos"
                   ></img>
