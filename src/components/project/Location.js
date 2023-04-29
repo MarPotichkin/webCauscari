@@ -156,7 +156,7 @@ const Location = () => {
               </div>
               <div className="recReference ref9"></div>
               <div>
-                <p>Área Urbana</p>
+                <p>Área Rural</p>
                 <p>Población: 8,4%</p>
                 <p>Superficie: 46%</p>
               </div>

@@ -808,7 +808,7 @@ button:nth-child(2){
 }
 
 .mapRegulation {
-  background: papayawhip;
+  /* background: papayawhip; */
   width: 100%;
   /* height: 130px; */
   height: auto;
@@ -970,7 +970,7 @@ button:nth-child(2){
   background: #FAF063;
 }
 
-.table tbody tr:hover {
+.table2 tbody tr:hover {
   background: #F6C34A;
 }
 
