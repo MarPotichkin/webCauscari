@@ -30,7 +30,7 @@ img {
 .rectangle {
   height: 142px;
   width: 639px;
-  background: rgba(223, 242, 239, 0.45);
+  background: rgba(223, 242, 239, 0.55);
   position: absolute;
   bottom: 50px;
   right: 0;

@@ -3,8 +3,8 @@
         "name" : "Diseño paisajístico",
         "description": "Contribuye a mejorar la calidad ambiental y estética del espacio público, proporcionando un ambiente agradable y funcional para la comunidad.",
         "description2": "Se propone la reforestación de la zona, inclusión de mobiliario y equipamiento necesario para revitalizar la zona, proporcionándole carácter de parque lineal.",
-        "icons": ["p1.png", "p2.png","p3.png", "p4.png", "p5.png", "p6.png"],
-        "iconsDet": ["Reforestación", "Gráfica", "Jardín vertical", "Bicisenda", "Paseo", "Descanso"],
+        "icons": ["p1.png", "p2.png","p3.png", "p6.png", "p4.png", "p5.png"],
+        "iconsDet": ["Reforestación", "Gráfica", "Jardín vertical", "Descanso", "Bicisenda", "Paseo"],
         "img": "proposalPublicSpace.png",
         "eje": "Paisaje"
     },
@@ -12,8 +12,8 @@
         "name" : "Equipamiento cultural",
         "description": "Contribuyen a crear una identidad en el espacio público, fomentan la participación ciudadana, generan una sensación de pertenencia y promueven el desarrollo socioeconómico local.",
         "description2": "Se propone la vinculación con el Centro Cultural Le Parc y la Municipalidad de Guaymallén incluyendo aulas taller para el desarrollo de actividades a lo largo del municipio.",
-        "icons": ["c1.png", "c2.png", "c3.png", "c4.png"],
-        "iconsDet": ["Teatro al aire libre", "Cine al aire libre", "Aulas taller", "Galerías al aire libre"],
+        "icons": ["c1.png", "c2.png", "c3.png", "c4.png", "c5.png"],
+        "iconsDet": ["Teatro al aire libre", "Cine al aire libre", "Aulas taller", "Galerías al aire libre", "Escenario"],
         "img": "proposalCultura.png",
         "eje": "Cultura"
     },
@@ -21,8 +21,8 @@
         "name" : "Equipamiento deportivo",
         "description": "Promueve la actividad física y el bienestar de la comunidad. La inclusión de equipamiento deportivo fomenta un estilo de vida más activo y saludable, además de ser una herramienta para la cohesión social y la integración de la comunidad.",
         "description2": "Se proponene en zonas cercanas a canchas realizadas por vecinos y de aulas taller para las actividades que realiza el municipio.",
-        "icons": ["d1.png", "d2.png"],
-        "iconsDet": ["Estación deportiva", "Canchas"],
+        "icons": ["d1.png", "d2.png", "d3.png", "d4.png"],
+        "iconsDet": ["Ejercicio al aire libre", "Canchas", "Clases grupales", "Circuito deportivo"],
         "img": "proposalDeporte.png",
         "eje": "Deporte"
     },
@@ -30,8 +30,8 @@
         "name" : "Equipamiento recreativo",
         "description": "Ayudan a reducir los niveles de estrés y mejorar el bienestar emocional y mental de las personas. Además, fomenta la interacción social y la creación de comunidad en los espacios públicos.",
         "description2": "Se preven espacios para la recreación pasiva y activa, teniendo en cuenta de colocar estos últimos en zonas de movimiento para fomentar la interacción.",
-        "icons": ["r1.png", "r2.png", "r3.png", "r4.png"],
-        "iconsDet": ["Juegos", "Skatepark", "Paseo para mascotas", "Sectores de relajación"],
+        "icons": ["r1.png", "r2.png", "r3.png", "r4.png", "r5.png", "r6.png"],
+        "iconsDet": ["Juegos para niños", "Skatepark", "Paseo para mascotas", "Juegos de mesa","Picnic","Meditación"],
         "img": "proposalRecreativo.png",
         "eje": "Recreación"
     },
@@ -46,8 +46,10 @@
     },
     {
         "name": "Causcarí",
-        "description":"...",
+        "description":"Proporciona un espacio verde para la recreación, la cultura y el deporte, y también actúa como un elemento unificador para la comunidad además de fomentar la interacción social.",
+        "description2": "Causcarí es un circuito de paisajes que potencia las identidades locales y el sentido de pertenencia e historia que los vincula.",
         "img": "baseProposal.png",
+        "imgFinal": "proposal.jpg",
         "eje": "Causcarí"
     }
 ]

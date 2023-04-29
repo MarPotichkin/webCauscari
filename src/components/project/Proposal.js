@@ -60,6 +60,13 @@ const Proposal = () => {
               <p style={{fontSize: "10px", textAlign: "center"}}>{proposalData[selectedCircle].iconsDet[index]}</p>
             </div>
           ))}
+          {proposalData[selectedCircle].name === "Causcarí" &&
+            <img 
+            className="imgProposalCauscari"
+            src={require(`../../assets/mapsProposal/${proposalData[selectedCircle].imgFinal}`)}
+            alt={proposalData[selectedCircle].eje}
+          ></img>
+          }
       </div>
       <div className="selectorProposal">
         <div className="imgProgress">
